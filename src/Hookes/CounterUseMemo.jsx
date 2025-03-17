@@ -1,8 +1,10 @@
 import React, { useMemo, useState } from 'react'
+import useDoumentTitle from './useDoumentTitle'
 
 function CounterUseMemo() {
     const [ count , setCount] = useState(0)
     const [ count2 , setCount2] = useState(0)
+    useDoumentTitle(count)
     const hanleCount = () => {
         setCount(count + 1)
     }

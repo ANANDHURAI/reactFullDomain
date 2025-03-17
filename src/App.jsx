@@ -15,6 +15,10 @@ import DatafetchingTwo from './components/DatafetchingTwo'
 import ParentComponent from './Hookes/ParentComponent'
 import CounterUseMemo from './Hookes/CounterUseMemo'
 import InputComRef from './Hookes/InputComRef'
+import HookTimer from './Hookes/HookTimer'
+import ComponentB from './CodeEvolivation/ComponentB'
+import ComopenetA from './CodeEvolivation/ComopenetA'
+import UserForm from './CodeEvolivation/UserForm'
 
 
 function App() {
@@ -26,7 +30,11 @@ function App() {
         {/* <DatafetchingTwo/> */}
         {/* <ParentComponent/> */}
         {/* <CounterUseMemo/> */}
-        <InputComRef/>
+        {/* <InputComRef/> */}
+        {/* <HookTimer/> */}
+        {/* <ComponentB/>
+        <ComopenetA/> */}
+        <UserForm/>
       </div>
       
     </>
