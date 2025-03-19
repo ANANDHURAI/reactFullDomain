@@ -31,3 +31,4 @@ function DatafetchingOne() {
 }
 
 export default DatafetchingOne
+

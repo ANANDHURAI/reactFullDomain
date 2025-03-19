@@ -19,6 +19,11 @@ import HookTimer from './Hookes/HookTimer'
 import ComponentB from './CodeEvolivation/ComponentB'
 import ComopenetA from './CodeEvolivation/ComopenetA'
 import UserForm from './CodeEvolivation/UserForm'
+import UseState from './CodeEvolivation/UseState'
+import { UseReducer } from './CodeEvolivation/UseReducer'
+import IndepthHook from './CodeEvolivation/IndepthHook'
+import GrantParent from './Family/GrantParent'
+import NewBottleReducer from './Family/NewBottleReducer'
 
 
 function App() {
@@ -34,7 +39,13 @@ function App() {
         {/* <HookTimer/> */}
         {/* <ComponentB/>
         <ComopenetA/> */}
-        <UserForm/>
+        {/* <UserForm/> */}
+        {/* <UseState/> */}
+        {/* <UseReducer/> */}
+        {/* <IndepthHook/> */}
+        {/* <GrantParent/> */}
+        <NewBottleReducer/>
+        
       </div>
       
     </>
